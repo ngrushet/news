@@ -4,7 +4,7 @@ import { DeleteResult, Repository, UpdateResult } from 'typeorm';
 import { User } from '../models/users.interface';
 import { InjectRepository } from '@nestjs/typeorm/dist';
 import { RoleService } from 'src/roles/services/roles.service';
-import { AuthService } from 'src/auth/auth.service';
+import { AuthService } from 'src/auth/services/auth.service';
 import { Role } from 'src/roles/models/roles.interface';
 
 @Injectable()
